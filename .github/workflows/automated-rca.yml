@@ -26,3 +26,6 @@ jobs:
       # on workflow_dispatch we'll fall back to the input:
       issue-number: ${{ github.event.issue.number || github.event.inputs['issue-number'] }}
       issue-labels:  '["Sev0-urgent","Sev1-high","Sev0-test"]'
+      entry-team: 'entry.1698032149'
+      entry-regression: 'entry.1228565618'
+      entry-issue: 'entry.340898780'
